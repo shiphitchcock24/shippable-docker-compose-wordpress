@@ -6,5 +6,5 @@ build:
     post_ci:
       - sudo pip install -U docker-compose
       - curl https://wordpress.org/latest.tar.gz | tar -xvzf -
-      - docker-compose up
+      - docker-compose up -d
       - docker ps
