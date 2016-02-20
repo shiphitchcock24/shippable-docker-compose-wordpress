@@ -8,3 +8,4 @@ build:
       - curl https://wordpress.org/latest.tar.gz | tar -xvzf -
       - docker-compose up -d
       - docker ps
+      - ping http://localhost:8000
